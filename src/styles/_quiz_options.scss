@@ -1,0 +1,204 @@
+ .questions {
+ 
+  background: #800080;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ffc0cb, #e089e0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ffc0cb, #dfa4df); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size:25px;
+  
+ }
+ .teacher_option {
+   background-color: brown;
+ }
+ 
+ .optionList{
+    height: 50%;
+    width: 50%;
+    background: #000000;
+    line-height: 30px;
+    margin: 3px 0;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    overflow: hidden;
+    border: 1px solid #b0c4d8;
+    cursor: pointer;
+}
+.options :hover {
+    transform: scale(1.05);
+    background: #4de91e;
+    transition: all 0.3s ease;
+    font-size: 30px;
+}
+.selectedOptions{
+    margin: 20px;
+}
+.option input[type="radio"]{
+  margin-top: 10px;
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+    float: left;
+} 
+.option input[type="checkbox"]{
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+}
+/*Button*/
+
+ .button_option{
+	cursor: pointer;
+	position: relative;
+	padding: 1rem 1rem;
+	border-radius: 3.75rem;
+	line-height: 2.5rem;
+	font-size: 2rem;
+    font-weight: 600;
+    margin-right: 100px;
+	
+	border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+}
+
+.button_option span {
+	color: transparent;
+	background-image: linear-gradient(0deg, #EE82DA 0%, #FEFAFD 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	filter: drop-shadow(0 2px 2px hsla(290, 100%, 20%, 1));
+}
+
+
+.button_option::before,
+.button_option::after
+ {
+    content: '';
+    position: absolute;
+    width: inherit;
+    border-left: inherit;
+    z-index: -1;
+}
+
+.button_option::before {
+    height: 80%;
+    top: 10%;
+    left: calc(-0.15em - 0.08em * 2);
+    filter: brightness(0.6);
+}
+
+
+ .button_option::after {
+    height: 60%;
+    top: 20%;
+    left: calc(-0.15em * 2 - 0.08em * 3);
+    filter: brightness(0.6);
+}  
+
+.button_option:hover {
+    transform: translateX(0.20em);
+} 
+/*Quiz*/
+ .row{
+   
+    padding: 15px;
+} 
+
+
+.quiz-p{
+background: url("../images/bg19.jpg");
+}
+
+  .time-remaining{
+    color:green;
+    position:relative;
+    align-content: left;
+    font-weight: 900;
+   
+    // top:30%;
+
+  }
+  .timer{
+    font-size:23px;
+     
+  }
+  .time-container {
+    position:absolute;
+  }
+
+  
+
+  /************** Quiz Background **************************************/
+
+  
+
+
+  /* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+  
+  
+  /* Animations 
+  @-webkit-keyframes bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+  }
+  @-moz-keyframes    bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+  }
+  @-o-keyframes      bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+  }
+  @keyframes         bg-scrolling-reverse {
+    100% { background-position: $bg-width $bg-height; }
+  }
+  
+  @-webkit-keyframes bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+  }
+  @-moz-keyframes    bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+  }
+  @-o-keyframes      bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+  }
+  @keyframes         bg-scrolling {
+    0% { background-position: $bg-width $bg-height; }
+  }*/
+  
+  /* Main styles */
+  // .quiz-background {
+    
+  //   color: #999;
+  //   /* img size is 50x50 */
+  //   background: url($bg-url) repeat 0 0;
+    
+  //   -webkit-animation: bg-scrolling-reverse .92s infinite; /* Safari 4+ */
+  //   -moz-animation:    bg-scrolling-reverse .92s infinite; /* Fx 5+ */
+  //   -o-animation:      bg-scrolling-reverse .92s infinite; /* Opera 12+ */
+  //   animation:         bg-scrolling-reverse .92s infinite; /* IE 10+ */
+  //   -webkit-animation-timing-function: linear;
+  //   -moz-animation-timing-function:    linear;
+  //   -o-animation-timing-function:      linear;
+  //   animation-timing-function:         linear;
+    
+   
+  // }
+
+  /***********************************Clock **********************************/
+
+  
+
+.quiz-background {
+background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?size=626&ext=jpg&ga=GA1.2.1060402833.1609857858");
+}
+ 
+
+.quiz-bg{
+    background-image: url(../images/xxx.jpg); 
+     width: 100%;
+    height:100vh;
+    
+   
+}
+
+

@@ -1,0 +1,79 @@
+// Fonts
+$quicksand: 'Quicksand', sans-serif;
+
+// colors
+
+// Color variables
+$bgcolor: #ffc9d7;
+$maincolor: rgba(0, 168, 232, 0.79);
+$whiterow: rgba(254, 254, 254, 0.9);
+$greyrow: rgba(240, 240, 240, 0.9);
+$white: rgba(254, 254, 254, 1);
+
+
+
+$orange: #ffa500;
+$green: #57b846;
+$success-text: #4caf50;
+$red: #ea4355;
+$error-text: #F44336;
+$blue: #1da1f2;
+$off-black: #333;
+$off-white: #f8f8f8;
+$hightlightBackgroudColor : #d4e8f5;
+
+
+$primaryTextColor:#fff;
+$primary-color:  linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 251, 1) 100%
+  );
+//highlight
+$highlightBgColor:$primary-color;
+$highlightTextColor:$primaryTextColor;
+
+//input
+$inputFocusBorderColor:#9EB3CD;
+$inputFocusBorderShadowColor:rgba(22,107,212,.25);
+
+//primary button
+$primaryButtonTextColor:#fff;
+$primaryButtonBgColor:#7A69B3;
+$primaryButtonBorderColor:#0094d2;
+$primaryButtonHoverBgColor:#0094d2;
+$primaryButtonHoverBorderColor:#466489;
+$primaryButtonActiveBgColor:#263951;
+$primaryButtonActiveBorderColor:#263951;
+$primaryButtonFocusBorderShadow:rgba(22,107,212,.5);
+
+//secondary buton
+$secondaryButtonTextColor:#fff;
+$secondaryButtonBgColor:#0094d2;
+$secondaryButtonBorderColor:#0094d2;
+$secondaryButtonHoverBgColor:#fff;
+
+// Sizes
+$xs: 0.5rem;
+$normal: 1rem;
+$sm: 1.5rem;
+$md: 2rem;
+$lg: 3rem;
+$xlg: 5rem;
+$xxlg: 7rem;
+
+// Button Radius
+$button-radius: 30px;
+
+// Breakpoints
+$lg-breakpoint: 1024px;
+$md-breakpoint: 768px;
+$sm-breakpoint: 641px;
+$xs-breakpoint: 480px;
+
+// Shadow
+$shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+$bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
+  $bg-width: 50px;
+  $bg-height: 50px;

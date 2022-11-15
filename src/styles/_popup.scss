@@ -1,0 +1,77 @@
+
+@mixin popup_container($bg-color,$align) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $bg-color;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: $align;  
+}
+@mixin popup_h1($bg-color,$padding){
+    background-color:$bg-color;
+    border-bottom: 1px solid #ccc;
+    padding: $padding;
+    margin-top: 0;
+}
+
+.popup-container {
+   @include popup_container(rgba(0,0,0,0.5),center);
+}
+
+.popup {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    h1 {
+       @include popup_h1(#FF9800,20px);
+       color: white;
+    }
+    p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 20px 10% 0;
+    }
+}
+
+
+.popup h1 {
+    background: $primary-color;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 0;
+}
+
+
+.quiz_page_bg {
+    background-image: url(../images/quiz_background.png);
+  background-size: cover;
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.forgot_pass_body {
+    background-image: url(../images/forgot_pass.png);
+  background-size: cover;
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+}

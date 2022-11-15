@@ -1,0 +1,157 @@
+
+#header {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    }
+    
+#header h1 {
+       margin: 0 0 10px 0;
+       font-size: 50px;
+       font-weight: 700;
+       color:black;
+    
+        }
+#header .brand-name {
+    color:blue;
+        }
+    
+    #header h2 {
+        color: black;
+        font-size: 24px;
+    }
+    #header .btn-get-started {
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color:purple;
+        border: 2px solid purple;
+        text-decoration: none;
+    }
+    #header .btn-get-started:hover {
+        background-color: purple;
+        color: white;
+    }
+    /* .header-img {
+        text-align: right;
+        width: 400px;
+        height: 300px;
+    } */
+    #header .animated {
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
+    
+    @-webkit-keyframes up-down {
+        0% {
+            transform: translateY(13px);
+        }
+        100% {
+            transform: translateY(-13px);
+        }
+    }
+    
+    @keyframes up-down {
+        0% {
+            transform: translateY(13px);
+        }
+        100% {
+            transform: translateY(-13px);
+        }
+    }
+    /* .card-img-top {
+        width: 400px;
+        height: 200px;
+    } */
+    .bcc1{
+        margin-left: 10px;
+        margin-top: 50px;
+        animation: bouncy 5s infinite linear;
+        animation-delay:0.07s;
+       position: relative;
+    } 
+    .bcc2{
+        margin-left: 15px;
+        margin-top: 50px;
+        animation: bouncy 5s infinite linear;
+        animation-delay:0.14s;
+       position: relative;
+    } 
+    .bcc3{
+        margin-left: 20px;
+        margin-top: 50px;
+        animation: bouncy 5s infinite linear;
+        animation-delay:0.21s;
+       position: relative;
+    } 
+   
+    
+
+    .btn-get-started-create {
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 50px;
+       
+        color:purple;
+        border: 2px solid purple;
+        text-decoration: none;
+       
+      
+        
+    }
+     .btn-get-started-create:hover {
+        background-color: purple;
+        color: white;
+    }   
+    .btn-quiz-name{
+        margin-top: 20px;
+    }
+    .btn-teacher-create {
+        float: right;
+       
+        padding:0.3em 0.3em;
+        text-decoration:none;
+        font-size: 25px;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:white;
+        background-color: #f14ebd;
+       
+    }
+    .bcc4{
+        margin-top: 30px;
+        margin-right: 80px;
+        animation: bouncy 5s infinite linear;
+        animation-delay:0.10s;
+       position: relative;
+    } 
+    .btn-teacher-create:hover{
+        border-color: rgba(255,255,255,1);
+        }
+    @keyframes bouncy {
+        0%{top: 0em}
+        40%{top:0em}
+        43%{top:-0.9em}
+        46%{top:0em}
+        48%{top:-0.4em}
+        50%{top:0em}
+        100%{top:0em;}
+    }
+    #outer
+    {
+        width:100%;
+        
+    }
+    .inner
+    {
+        display: inline-block;
+        margin: 10px;
+        
+    }
+    

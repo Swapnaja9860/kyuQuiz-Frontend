@@ -1,0 +1,91 @@
+
+ $baseColor: #ce24c0;
+//  $baseColor: #DB7093;
+//  $baseColor: #4682B4;
+$borderRadius: 10px;
+ .custom-box{
+    max-width: 700px;
+    // background-color:red;
+    // background-color:lighten(#398B93, 55%);
+    background-color:"#F0F8FF";
+    margin: 40px auto;
+    padding: 30px;
+    // border-radius: 25px;
+    // border:1px solid black;
+}
+.outside-table{
+    
+    //  background-color:lighten(#398B93, 15%);
+     background-color:lighten($baseColor, 30%);
+     // box-shadow: 20px 20px 20px 20px 0 rgba(0, 0, 7, 0.1);
+     border-radius:"25px";
+}
+.result-box{
+    text-align: center;
+}
+.result-box h1{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 42px;
+    // color: #009688;
+    color:#483D8B;
+}
+.result-box h3{
+    font-size: 30px;
+    line-height: 42px;
+    // color: #009688;
+    color:#C71585;
+}
+.custom-table{
+    // border:1px solid black;
+    // border-radius: 25px;
+    width: 100%;
+    border: 5px solid darken($baseColor, 5%);
+    border-radius: 25px;
+    // box-shadow: 20px 20px 20px 20px 0 rgba(0, 0, 7, 0.1);
+     border-collapse: collapse;
+    margin: 30px 0;
+    // border:1px solid black;
+    // border-radius: 25px;
+    // border: 1px solid #cccccc;
+    
+   
+}
+table tr{
+    // border:1px solid black;
+    border: 1px solid #cccccc;
+    &:nth-child(2n) { background-color:white; }
+    &:nth-child(2n+1) { background-color: lighten($baseColor, 50%) }
+  
+    
+   
+}
+.result-box td{
+    border: 1px solid #cccccc;
+    // border: 1px solid black;
+    
+    padding: 8px 15px;
+    font-weight: 500;
+    color: #000000;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+}
+.result-box .btn{
+    margin-right: 20px;
+}
+.container .btn{
+    margin-right: 100px;
+}
+.form_report {
+    margin: 40px;
+    border-collapse: collapse;
+
+} 
+
+.report-bg {
+    background-image: url("https://img.freepik.com/free-vector/gradient-geometric-background_52683-54199.jpg?size=626&ext=jpg&ga=GA1.2.1060402833.1609857858");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
