@@ -1,0 +1,93 @@
+@import './base/setting';
+
+.pop-container{
+  @include popup_container(rgba(0,0,0,0.5),center);
+}
+
+.pop{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0px;
+    overflow: hidden;
+    h4{
+        @include popup_h1($blue,0.6rem);
+        color:$white;
+    }
+    input{
+      margin: 1rem;
+      margin-bottom: 0rem;
+    }
+}
+
+.tryh4{
+  @include popup_h1(white,1rem);
+  color:$blue;
+  text-align: center;
+}
+
+.make-border{
+  /* border:3px solid blue; */
+  border-radius: 25px;
+  padding: 20px;
+  /* background-color: rgb(200, 243, 243); */
+  position: relative;
+  left: 35%;
+  /* float: right; */
+}
+@media only screen and (max-width: 576px) {
+.make-border {left: 0%}
+}
+@media only screen and (min-width :576px) and (max-width : 768px){
+  .make-border {left:0%}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .make-border {left: 15%}
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .make-border {left: 13%}
+}
+
+.left-alignment{
+  /* border:3px solid blue; */
+  border-radius: 25px;
+  padding: 20px;
+  /* background-color: rgb(200, 243, 243); */
+  position: relative;
+  left: 37%;
+  /* float: right; */
+}
+@media only screen and (max-width: 576px) {
+  .left-alignment {left: 0%}
+  }
+  @media only screen and (min-width :576px) and (max-width : 768px){
+    .left-alignment {left:0%}
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px){
+    .left-alignment {left: 15%}
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1024px){
+    .left-alignment {left: 13%}
+  }
+
+  .left-alignment1{
+    /* border:3px solid blue; */
+    border-radius: 25px;
+    padding: 20px;
+    /* background-color: rgb(200, 243, 243); */
+    position: relative;
+    left: 47%;
+    /* float: right; */
+  }
+  @media only screen and (max-width: 576px) {
+    .left-alignment1 {left: 22%}
+    }
+    @media only screen and (min-width :576px) and (max-width : 768px){
+      .left-alignment1 {left:30%}
+    }
+    @media only screen and (min-width: 768px) and (max-width: 992px){
+      .left-alignment1 {left: 35%}
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1024px){
+      .left-alignment1 {left: 33%}
+    }
+  

@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import "~bootstrap/scss/bootstrap";
+//font variables
+$main-font: "Montserrat", sans-serif;
+
+.partypop1{
+  width: 60px;
+  height: 50px;
+  margin-left: 0px;
+}
+// 
+.partypop2{
+  width: 50px;
+  height: 50px;
+  
+  transform: rotate(270deg);
+}
+.card-text {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+// Color variables
+$bgcolor: #ffc9d7;
+$maincolor: rgba(0, 168, 232, 0.79);
+$whiterow: rgba(254, 254, 254, 0.9);
+$greyrow: rgba(240, 240, 240, 0.9);
+$white: rgba(254, 254, 254, 1);
+
+// Genral rules
+.leaderboard-body {
+  //Nature
+
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+  //background: url("https://i.kinja-img.com/gawker-media/image/upload/m6ztwkawvypgrnn9k5o3.jpg")
+  //Gradient
+ // background: url("https://media2.giphy.com/media/26BRABnerqonwLHMc/source.gif")
+ background: url("https://cliply.co/wp-content/uploads/2019/08/371908020_CONFETTI_400px.gif")
+  
+    //CyberTron
+    //background: url("https://cdn5.vectorstock.com/i/1000x1000/52/24/abstract-technology-blue-and-white-background-vector-9335224.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: $main-font;
+}
+
+.winner {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+      transform: translateY(15px);
+  }
+  100% {
+      transform: translateY(-15px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+      transform: translateY(15px);
+  }
+  100% {
+      transform: translateY(-15px);
+  }
+}
+// Leaderboard
+.winner-leaderboard {
+  width: 700px;
+  margin: 100px auto;
+  
+}
+
+.card-body-leaderboard {
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.card-title-leaderboard {
+  font-weight: 1000;
+  font-size: 25px;
+  color: rgb(18, 27, 163);
+}
+
+.leadheader {
+  width: 100%;
+  height: 50px;
+  background:blueviolet;
+  text-align: center;
+  column-count: 3;
+  column-gap: 40px;
+  color: white;
+  background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+// Column header
+.colheader {
+  background: $whiterow;
+  width: 100%;
+  margin-left: 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  &:h4 {
+    font-size: 15px;
+    .alltime {
+      cursor: pointer;
+      user-select: none;
+    }
+    .recent {
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}
+.colheader {
+  background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+// User table
+.users {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #9CECFB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+.name {
+  text-align: left;
+}
+.a-leaderboard {
+  padding-top: 15px;
+  vertical-align: middle;
+}
+
+.img-leaderboard {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid $maincolor;
+  margin-right: 10px;
+}
+.rank {
+  padding-left: 6px;
+}
+//   :nth-of-type(odd)
+//   {
+//     background: $whiterow;
+//   }
+//   :nth-of-type(even)
+//   {
+//     background: $greyrow;
+//   }
+:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+// // Media queries
+@media (max-width: 550px) {
+  .users & .name {
+    padding-left: 5px;
+  }
+  .container-leaderboard {
+    width: 80%;
+  }
+ 
+ 
+}
+
+//   .container{
+//     width: 100%;
+//}
+//}
+@media (max-width: 540px) {
+  .container {
+    padding: 0;
+  }
+  .colheader {
+    & div[class^="col-xs"] {
+      padding: 0;
+    }
+    .users {
+      text-align: center;
+    }
+    & img {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      width: 35px;
+      height: 35px;
+    }
+    &.name {
+      text-align: center;
+    }
+    & a {
+      display: block;
+      padding-top: 4px;
+    }
+  }
+}

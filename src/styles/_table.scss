@@ -1,0 +1,130 @@
+ @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+} 
+/*.main {
+    background-image: url('../src/images/bg23.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }*/
+/*.navbar {
+    background-color:transparent !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: blue !important;
+}
+.navbar a {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+@media (max-width:991px){
+    .navbar-brand{
+       
+        font-size: 25px !important;
+    }
+}
+.menu_active {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.navbar a:hover {
+    color: blue !important;
+} */
+
+/*------------------------------------------*/
+/* #header {
+width: 100%;
+height: 0vh;
+margin-top: 70px;
+
+}
+
+#header h1 {
+   margin: 0 0 10px 0;
+   font-size: 50px;
+   font-weight: 700;
+   color:white;
+
+    }
+#header .brand-name {
+color:white;
+    }
+
+#header h2 {
+    color: white;
+    font-size: 24px;
+}
+#header .btn-get-started {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color:purple;
+    border: 2px solid purple;
+    text-decoration: none;
+    
+}
+#header .btn-get-started:hover {
+    background-color: purple;
+    color: white;
+}
+.header-img {
+    text-align: right;
+    width: 400px;
+    height: 400px;
+}
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(13px);
+    }
+    100% {
+        transform: translateY(-13px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(13px);
+    }
+    100% {
+        transform: translateY(-13px);
+    }
+}
+.card-img-top {
+    width: 400px;
+    height: 200px;
+}*/
+
+.Tables {
+    margin-left: 10%;
+    margin-right:10%;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    overflow-x:auto;
+    border-collapse: collapse;
+    
+}
+th {
+    background: rgb(117, 95, 179);
+    color: white;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {background-color: #f2f2f2;} 
